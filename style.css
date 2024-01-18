@@ -1,0 +1,669 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav-container{
+    max-width: 850px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.left-div{
+    display: flex;
+}
+.left-div h1{
+    color: #131318;
+    font-family: 'Mulish';
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.right-div ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+ul li a{
+    font-size: 1rem;
+    text-decoration: none;
+    margin: 20px;
+    color:  #424247;
+}
+.travel{
+    color: #FF5400;
+}
+.style-a{
+    color: #FF5400;
+}
+
+
+/*header image part */
+.header-img{
+    width: 850px;
+    height: 350px;
+    text-align: center;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto; 
+    background-image: url('./B9A2-Hero-Travel/Images/Group\ 13\ \(1\)\ \(1\).png');
+    background-position: center;
+    padding: 20px; 
+    position: relative;
+}
+
+  .had-text-div{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    
+ }
+ .header-img h1{
+color: #FFF;
+font-family: 'Mulish';
+font-size: 64px;
+font-weight: 800;
+ }
+ .header-img p{
+ color: #FFF;
+text-align: center;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px; 
+ }
+.input-div{
+    display: inline-flex;
+    padding: 16px;
+    align-items: flex-start;
+    gap: 24px;
+    margin-bottom: 30px ;
+ }
+ .input-div input{
+    width: 150px;
+    height: 40px;
+    flex-shrink: 0;
+    color: rgba(19, 19, 24, 0.50);
+    border: none;
+    text-align: center;
+    border-radius: 5px;
+ }
+.input-last{
+    background-color: #FF5400;
+    color: #FFF;
+}
+.second-part-container{
+    display: flex;
+    width: 850px;
+    height: 400px;
+    margin: 0 auto;
+    margin-top: 30px;
+    justify-content: space-evenly;
+}
+
+.s-p-container-left p{
+ height: 30px;
+}
+.s-p-container-right img{
+    height: 400px;
+   }
+
+   .s-p-container-left h1{
+    color: #131318;
+    text-align: center;
+    font-family: 'Mulish';
+    font-size: 40px;
+    font-weight: 800;  
+   }
+   .s-p-container-left p{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px; 
+    margin: 5px;
+   }
+   .btn-primary{
+    border: none;
+    border-radius: 5px;
+    background-color: #FF5400;
+    height: 40px;
+    width: 80px;
+    color: #FFF;
+   }
+
+   .trd-div-container{
+    width: 500px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 30px;
+   }
+
+
+   .dbl-img-one{
+    width: 850px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    margin-top: 40px;
+   }
+   .left-img-one{
+    background-image: url('./B9A2-Hero-Travel/Images/Rectangle\ 5.png');
+     width: 48%;
+     height: 200px;
+     text-align: center;
+     border-radius: 10px;
+   }
+
+   .right-img-one{
+    background-image: url('./B9A2-Hero-Travel/Images/Rectangle\ 8.png');
+    width: 48%;
+    height: 200px;
+    text-align: center;
+    border-radius: 10px;
+   }
+   .left-img-one h5{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    color: #FFF;
+    font-size: 28px;
+   }
+
+   .right-img-one h5{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    color: #FFF;
+    font-size: 28px;
+   }
+
+
+/*  */
+/*  */
+
+   .dbl-img-two{
+    width: 850px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    margin-top: 40px;
+   }
+   .left-img-two{
+    background-image: url('./B9A2-Hero-Travel/Images/Rectangle\ 6.png');
+     width: 48%;
+     height: 200px;
+     text-align: center;
+     border-radius: 10px;
+   }
+
+   .right-img-two{
+    background-image: url('./B9A2-Hero-Travel/Images/Rectangle\ 9.png');
+    width: 48%;
+    height: 200px;
+    text-align: center;
+    border-radius: 10px;
+   }
+   .left-img-two h5{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    color: #FFF;
+    font-size: 28px;
+   }
+
+   .right-img-two h5{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    color: #FFF;
+    font-size: 28px;
+   }
+/*  */
+/*  */
+
+
+   #input-ff{
+    width: 150px;
+    height: 20px;
+    margin: 100px 70px;
+    border: none;
+    color: #FFF;
+   }
+
+   /*  */
+
+   .dbl-img-three{
+    width: 850px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    margin-top: 40px;
+   }
+   .left-img-three{
+    background-image: url('./B9A2-Hero-Travel/Images/Rectangle\ 11.png');
+     width: 48%;
+     height: 200px;
+     text-align: center;
+     border-radius: 10px;
+   }
+
+   .right-img-three{
+    background-image: url('./B9A2-Hero-Travel/Images/Rectangle\ 10.png');
+    width: 48%;
+    height: 200px;
+    text-align: center;
+    border-radius: 10px;
+   }
+   .left-img-three h5{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    color: #FFF;
+    font-size: 28px;
+   }
+
+   .right-img-three h5{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    color: #FFF;
+    font-size: 28px;
+   }
+
+
+   /* new section start from here */
+   .section-header{
+    width: 500px;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 30px;
+   }
+   .section-header h1{
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+   }
+   .section-header p{
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-family: 'Mulish';
+    font-size: 16px;
+   
+    font-weight: 400;
+    line-height: 26px; 
+   }
+
+   /*  */
+   .section-img-container{
+    position: relative;
+    max-width: 850px;
+    height: 320px;
+    margin: 0 auto;
+    margin-top: 20px;
+    background-size: cover;
+    background-image: url('./B9A2-Hero-Travel/Images/Group\ 39.png');
+   }
+
+   .card-one{
+    position: absolute;
+    text-align: center;
+    justify-content: center;
+    width: 350px;
+    height: 210px;
+    border: 0.5px solid red;
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.80);
+    border-radius: 10px;
+    margin-left: 50%;
+    margin-top: 5%; 
+    padding: 20px;
+   }
+
+/*  */
+   .card-two{
+    position: absolute;
+    text-align: center;
+    justify-content: center;
+    width: 350px;
+    height: 210px;
+    border: 0.5px solid red;
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.80);
+    border-radius: 10px;
+    margin-left: 3%;
+    margin-top: 5%; 
+    padding: 20px;
+   }
+
+/*  */
+
+   .price{
+    color: #FF5400;
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    }
+    .header-para{
+    display: flex;
+    margin: 15px;
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    }
+
+    .tutor{
+        color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    }
+    .big-para{
+    color: #FF5400;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+   }
+   /* new section start from here */
+  
+   .section2-img-container{
+    position: relative;
+    max-width: 850px;
+    height: 320px;
+    margin: 0 auto;
+    margin-top: 20px;
+    background-size: cover;
+    background-image: url('./B9A2-Hero-Travel/Images/Group\ 40.png');
+   }
+
+   .btn-div{
+    width: 210px;
+    height: 50px;
+    margin: 0 auto; 
+    margin-top: 20px; 
+  
+   }
+  
+    .btn-section{
+    color: #FFF;
+    background-color: #FF5400;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;     
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+   }
+
+  .lasto-div-container{
+    display: flex;
+    width: 850px;
+    height: 400px;
+    margin: 0 auto;
+  }
+  .lasto-left{
+    width: 48%;
+    height: 300px;
+    padding: 10px;
+  }
+  .lasto-left h1{
+    color: #131318;
+    font-size: 35px; 
+    font-weight: 800;
+    line-height: 45px;
+  }
+  .lasto-left p{
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; 
+  }
+  .lasto-left ul li{
+    color: #131318;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+  }
+  .lasto-left button{
+    margin-top: 10px;
+  }
+  .lasto-right{
+    background-image: url('./B9A2-Hero-Travel/Images/Group\ 40089.png');
+    background-position: cover;
+    width: 48%;
+    height: 300px;
+    border-radius: 10px;
+  }
+  .lasto-right h5{
+    color: #FFF;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 25px;
+    margin-top: 50%;
+  }
+  /* lastto div ends */
+
+  /* last one div start from here */
+  .last-one-container{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    max-width: 850px;
+    height: 320px;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+  .last-one-left{
+    width: 49%;
+    height: 340px;
+    border: 1px solid #FF5400;
+    border-radius: 10px;
+    padding: 5px;
+  }
+  .last-one-left h5{
+    color: #131318;
+    font-size: 25px;
+    font-weight: 800;
+    line-height: normal;
+    margin: 5px;
+  }
+  .last-one-left p{
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px; 
+  }
+  .last-one-left input{
+    margin-top: 5px;
+    width: 393px;
+    height: 52px;
+    border: none; 
+    background: rgba(19, 19, 24, 0.05);
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .subscribe-btn{
+    width: 393px;
+    border: none;
+    height: 52px;
+    background: #FF5400;
+    margin-top: 15px;
+    border-radius: 5px;
+    font-size: 20px;
+    color: #FFF;
+  }
+  .last-one-right{
+    width: 49%;
+    height: 350px;
+    background-image: url('./B9A2-Hero-Travel/Images/Rectangle\ 8\ \(1\).png');
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    background-position: cover;
+  }
+  .last-one-right button{
+    width: 250px;
+    height: 80px;
+    transform: rotate(-19.628deg);
+   background-color: #FF5400;
+   margin-top: 55%;
+   margin-left: 160px;
+   font-size: 27px;
+   border: none;
+   border-radius: 10px;
+   color: #FFF;
+  }
+
+.header-foot{
+  background: rgba(19, 19, 24, 0.05);
+  position: relative;
+ max-width: 1000px;
+ height: 350px;
+  margin: 0 auto;
+  margin-top: 30px;
+  text-align: center;
+}
+.header-footer-had{
+  display: flex;
+  margin-left: 50%;
+  margin-top: 50px;
+ 
+}
+
+.end-p {
+  color: #5A5A5D;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+
+
+
+
+
+/* Responsive web design */
+@media screen and (max-width: 600px) {
+  .nav-container {
+      flex-direction: column;
+      align-items: center;
+      margin-top: 10px;
+  }
+
+  .left-div {
+      margin-bottom: 10px;
+  }
+
+  .right-div ul {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .header-img {
+      width: 100%;
+      height: auto;
+  }
+
+  .had-text-div {
+      margin: 20px;
+  }
+
+  .input-div {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .input-div input {
+      width: 100%;
+      margin: 10px 0;
+  }
+
+  .second-part-container {
+      flex-direction: column;
+      width: 100%;
+  }
+
+  .s-p-container-left,
+  .s-p-container-right {
+      width: 100%;
+      margin: 20px 0;
+  }
+
+  .dbl-img-one,
+  .dbl-img-two,
+  .dbl-img-three {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .left-img-one,
+  .right-img-one,
+  .left-img-two,
+  .right-img-two,
+  .left-img-three,
+  .right-img-three {
+      width: 100%;
+      margin: 20px 0;
+  }
+
+  #input-ff {
+      margin: 20px 0;
+  }
+
+  .section-header {
+      width: 100%;
+      margin-top: 20px;
+  }
+
+  .section-img-container,
+  .section2-img-container {
+      max-width: 100%;
+      height: auto;
+  }
+
+  .card-one,
+  .card-two {
+      width: 100%;
+      margin-left: 0;
+      margin-top: 20px;
+  }
+
+  .btn-div {
+      width: 100%;
+      margin-top: 20px;
+  }
+
+  .lasto-div-container,
+  .last-one-container {
+      flex-direction: column;
+      width: 100%;
+      margin: 20px 0;
+  }
+
+  .lasto-left,
+  .last-one-left {
+      width: 100%;
+      margin-right: 0;
+  }
+
+  .last-one-right {
+      width: 100%;
+      margin-left: 0;
+      margin-top: 20px;
+  }
+};
+/* responsive ends here */
