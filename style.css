@@ -48,7 +48,7 @@ ul li a{
     justify-content: center;
     align-items: center;
     margin: 0 auto; 
-    background-image: url('./B9A2-Hero-Travel/Images/Group\ 13\ \(1\)\ \(1\).png');
+    background-image: url('./Images/Group\ 13\ \(1\)\ \(1\).png');
     background-position: center;
     padding: 20px; 
     position: relative;
@@ -148,7 +148,7 @@ line-height: 26px;
     margin-top: 40px;
    }
    .left-img-one{
-    background-image: url('./B9A2-Hero-Travel/Images/Rectangle\ 5.png');
+    background-image: url('./Images/Rectangle\ 5.png');
      width: 48%;
      height: 200px;
      text-align: center;
@@ -156,7 +156,7 @@ line-height: 26px;
    }
 
    .right-img-one{
-    background-image: url('./B9A2-Hero-Travel/Images/Rectangle\ 8.png');
+    background-image: url('./Images/Rectangle\ 8.png');
     width: 48%;
     height: 200px;
     text-align: center;
@@ -192,7 +192,7 @@ line-height: 26px;
     margin-top: 40px;
    }
    .left-img-two{
-    background-image: url('./B9A2-Hero-Travel/Images/Rectangle\ 6.png');
+    background-image: url('./Images/Rectangle\ 6.png');
      width: 48%;
      height: 200px;
      text-align: center;
@@ -200,7 +200,7 @@ line-height: 26px;
    }
 
    .right-img-two{
-    background-image: url('./B9A2-Hero-Travel/Images/Rectangle\ 9.png');
+    background-image: url('./Images/Rectangle\ 9.png');
     width: 48%;
     height: 200px;
     text-align: center;
@@ -245,7 +245,7 @@ line-height: 26px;
     margin-top: 40px;
    }
    .left-img-three{
-    background-image: url('./B9A2-Hero-Travel/Images/Rectangle\ 11.png');
+    background-image: url('./Images/Rectangle\ 11.png');
      width: 48%;
      height: 200px;
      text-align: center;
@@ -253,7 +253,7 @@ line-height: 26px;
    }
 
    .right-img-three{
-    background-image: url('./B9A2-Hero-Travel/Images/Rectangle\ 10.png');
+    background-image: url('./Images/Rectangle\ 11.png');
     width: 48%;
     height: 200px;
     text-align: center;
@@ -309,7 +309,7 @@ line-height: 26px;
     margin: 0 auto;
     margin-top: 20px;
     background-size: cover;
-    background-image: url('./B9A2-Hero-Travel/Images/Group\ 39.png');
+    background-image: url('./Images/Group\ 39.png');
    }
 
    .card-one{
@@ -384,7 +384,7 @@ line-height: 26px;
     margin: 0 auto;
     margin-top: 20px;
     background-size: cover;
-    background-image: url('./B9A2-Hero-Travel/Images/Group\ 40.png');
+    background-image: url('./Images/Group\ 40.png');
    }
 
    .btn-div{
@@ -441,7 +441,7 @@ line-height: 26px;
     margin-top: 10px;
   }
   .lasto-right{
-    background-image: url('./B9A2-Hero-Travel/Images/Group\ 40089.png');
+    background-image: url('./Images/Group\ 40089.png');
     background-position: cover;
     width: 48%;
     height: 300px;
@@ -509,7 +509,7 @@ line-height: 26px;
   .last-one-right{
     width: 49%;
     height: 350px;
-    background-image: url('./B9A2-Hero-Travel/Images/Rectangle\ 8\ \(1\).png');
+    background-image: url('./Images/Group\ 13\ \(1\)\ \(1\).png');
     background-repeat: no-repeat;
     border-radius: 10px;
     background-position: cover;
